@@ -2,8 +2,6 @@
 
 N=$(cat $1 | wc -l)
 
-echo $N
-
 if [ $(($N%2)) == 0 ]
 then
 	M=$(($N/2))
